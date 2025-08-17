@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>מרכז היימן לקוגניציה</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דר ינון היימן - סדנאות קוגניטיביות - זיכרון, קשב וחוסן נפשי</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            color: #222;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        .cta {
+            margin-top: 20px;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            background: #667eea;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .cta a:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>דר ינון היימן - סדנאות קוגניטיביות - זיכרון, קשב וחוסן נפשי</h1>
+            <p>לשיפור ושימור היכולות הקוגניטיביות שלכם</p>
+            <div class="cta">
+                <a href="tel:0525854989">📞 התקשר עכשיו</a>
+                <a href="mailto:dr.inon@gmail.com?subject=פנייה מדף הנחיתה&body=שלום ד"ר היימן,">✉️ שלח מייל</a>
+                <a href="https://wa.me/972525854989">💬 שלח וואטסאפ</a>
+                <a href="https://www.inonhaimanbooks.com" target="_blank">📚 אתר לרכישת ספרים</a>
+            </div>
+        </header>
+    </div>
+</body>
 </html>
